@@ -100,6 +100,8 @@ int main(void)
 		return 0;
 	}
 
+	// Window = feop
+	// Linux = feof
 	while( !feof(fp) && isSuccess )
 	{
 		memset(&buffer, 0, sizeof(buffer));
